@@ -1,38 +1,67 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Home {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.Form {
+  width: 60vw;
+  height: 100vh;
+  background-color: rgb(250, 250, 250);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.LoginFormMaterial {
+  display: inline-block;
+  padding: 10px 25px;
+}
+
+.FormDiv {
+  width: 500px;
+  height: 300px;
+  background-color: white;
+  position: absolute;
+  top: 160px;
+  left: 100px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Picture {
+  width: 40vw;
+  height: 100vh;
+  background-color: white;
+}
+
+.ImagePicture {
+  width: 40vw;
+  height: 100vh;
+}
+
+.LoginDiv {
+  font-size: 40px;
+  padding: 10px 30px;
+}
+
+.LoginFormDiv {
+  width: max;
+  height: 150px;
+}
+
+.LoginFormButtonDiv {
+  padding: 10px 30px;
+  display: flex;
+  width: max;
+}
+
+.signupSpace {
+  width: 280px;
+}
+
+.signuptext {
+  align-items: flex-end;
+  align-self: flex-end;
+  display: flex;
+}
+
+.signup {
+  text-decoration: none;
+  color: blue;
 }
