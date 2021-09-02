@@ -14,11 +14,9 @@ function Dashboard() {
 
     while (i--) {
       values.push(JSON.parse(localStorage.getItem(keys[i])));
-      console.log(localStorage.getItem(keys[i]));
     }
 
     setList(values);
-    console.log(values);
   }, []);
 
   console.log("value", list);
